@@ -1,21 +1,24 @@
 plugins {
     id("java")
+    application
 }
 
 group = "org.wmn4j.ismir.demo"
-version = "1.0-SNAPSHOT"
+version = "0.1.0"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.wmn4j:wmn4j:0.6.2")
+    implementation("org.wmn4j:wmn4j:0.7.0")
 
     // Add logger implementation for wmn4j to use
     implementation("org.slf4j:slf4j-jdk14:1.7.36")
 }
 
-tasks.getByName<Test>("test") {
-    useJUnitPlatform()
+application {
+    mainClass.set("org.wmn4j.ismir.demo.Main")
 }
+
+
