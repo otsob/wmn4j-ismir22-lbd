@@ -2,6 +2,7 @@
 
 The purpose of the code in this repository is to demonstrate how
 [wmn4j](https://github.com/otsob/wmn4j) can be used to run analyses and searches on a score in parallel.
+All code can be found in the [Main file](./src/main/java/org/wmn4j/ismir/demo/Main.java).
 
 ## How to run the code
 
