@@ -14,7 +14,7 @@ dependencies {
     implementation("org.wmn4j:wmn4j:0.7.0")
 
     // Add logger implementation for wmn4j to use
-    implementation("org.slf4j:slf4j-jdk14:1.7.36")
+    implementation("org.slf4j:slf4j-jdk14:2.0.3")
 }
 
 application {
